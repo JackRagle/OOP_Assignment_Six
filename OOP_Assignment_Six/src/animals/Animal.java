@@ -13,4 +13,16 @@ public class Animal {
 		System.out.println("This is the public mate method in the Animal class");
 	}
 	
+	public static void main(String[] args) {
+		
+		Animal myAnimal = new Animal();
+		Fish myFish = new Fish();
+		Zebra myZebra = new Zebra();
+		
+		myAnimal.isMammal();
+		myAnimal.mate();
+		
+		myZebra.run();
+	}
+	
 }
